@@ -1,0 +1,19 @@
+{
+  "name": "hakeemonibudo.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachellejragasa/hakeemonibudo.com.git"
+  },
+  "author": "Rachelle Ragasa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachellejragasa/hakeemonibudo.com/issues"
+  },
+  "homepage": "https://github.com/rachellejragasa/hakeemonibudo.com#readme"
+}
