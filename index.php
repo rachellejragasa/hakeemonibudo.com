@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection">
   <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
+
 <body>
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
@@ -41,7 +42,6 @@
     </div>
     <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
-
 
   <div class="container">
     <div class="section">

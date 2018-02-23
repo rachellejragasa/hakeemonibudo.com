@@ -1,8 +1,32 @@
+
 const gulp = require('gulp');
-const plumber = require('gulp-plumber');
 const sass = require('gulp-sass');
-const postcss = require('gulp-postcss');
+const concat = require('gulp-concat');
 const autoprefixer = require('autoprefixer');
-const sourcemaps = require('gulp-sourcemaps');
-const groupmq = require('gulp-group-css-media-queries');
-const bs = require('browser-sync');
+const browserSync = require('browser-sync');
+
+gulp.task('sass', function () {
+    return gulp.src('style.scss')
+        .pipe(sass())
+        .pipe(concat('style.css'))
+        .pipe(gulp.dest('./'))
+        .pipe(browserSync.reload({
+            stream: true
+        }))
+});
+
+gulp.task('watch', ['browserSync', 'sass'], function () {
+    gulp.watch('css/**/*.scss', ['sass']);
+
+})
+
+gulp.task('browserSync', function() {
+    const files = [
+        'style.css',
+        '*.php'
+    ];
+  
+    browserSync.init(files, {
+        proxy: 'http://localhost:8888/'
+    })
+  });
