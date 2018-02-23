@@ -6,7 +6,7 @@ const autoprefixer = require('autoprefixer');
 const browserSync = require('browser-sync');
 
 gulp.task('sass', function () {
-    return gulp.src('style.scss')
+    return gulp.src('css/main.scss')
         .pipe(sass())
         .pipe(concat('style.css'))
         .pipe(gulp.dest('./'))
