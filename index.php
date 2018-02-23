@@ -1,5 +1,5 @@
 <?php get_header();?>
-
+  
   <div class="container">
     <div class="section">
 
@@ -73,3 +73,5 @@
     </div>
     <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
+
+  <?php get_footer();?>
