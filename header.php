@@ -19,21 +19,21 @@
     <div class="nav-wrapper">
       <a id="logo-container" href="#" class="brand-logo">Hakeem Onibudo</a>
       <ul class="right hide-on-med-and-down">
-        <li><a class="underline" href="#">home</a></li>
-        <li><a class="underline" href="#">biography</a></li>
-        <li><a class="underline" href="#">credits</a></li>
-        <li><a class="underline" href="#">photos</a></li>
-        <li><a class="underline" href="#">videos</a></li>
-        <li><a class="underline" href="#">contact</a></li>
+        <li><a class="underline" href="#home">home</a></li>
+        <li><a class="underline" href="#biography">biography</a></li>
+        <li><a class="underline" href="#credits">credits</a></li>
+        <li><a class="underline" href="#photos">photos</a></li>
+        <li><a class="underline" href="#videos">videos</a></li>
+        <li><a class="underline" href="#contact">contact</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-      <li><a href="#">Home</a></li>
-        <li><a href="#">Biography</a></li>
-        <li><a href="#">Credits</a></li>
-        <li><a href="#">Photos</a></li>
-        <li><a href="#">Videos</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#biography">Biography</a></li>
+        <li><a href="#credits">Credits</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
