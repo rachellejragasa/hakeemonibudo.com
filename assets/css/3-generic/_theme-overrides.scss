@@ -19,8 +19,10 @@ nav {
     }
 
     ul a {
+        font-size: 14px;
         padding: 0;
-        margin: 0 15px;
+        margin: 0 10px;
+        letter-spacing: 0.075em;
         &:hover {
             background: none;
         }
@@ -52,5 +54,28 @@ nav {
             right: auto;
             width: 100%;
         }
+    }
+
+    .brand-logo {
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.075em;
+    }
+}
+
+.header {
+    color: $white;
+}
+
+/**************** 
+* MEDIA QUERIES
+*****************/
+@media only screen and (min-width: 993px) {
+    nav {
+        height: 100px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 30px;
+        padding-left: 30px;
     }
 }

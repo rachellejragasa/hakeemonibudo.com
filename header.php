@@ -6,23 +6,25 @@
   <title>Hakeem Onibudo</title>
 
   <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css" media="screen,projection">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection">
-  <link href="<?php bloginfo('stylesheet_url');?>" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>" type="text/css" media="screen,projection"/>
 </head>
 <body>
 
 <div class="section no-pad-bot no-pad-top" id="index-banner">
   <nav role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+    <div class="nav-wrapper">
+      <a id="logo-container" href="#" class="brand-logo">Hakeem Onibudo</a>
       <ul class="right hide-on-med-and-down">
-        <li><a class="underline" href="#">Home</a></li>
-        <li><a class="underline" href="#">Biography</a></li>
-        <li><a class="underline" href="#">Credits</a></li>
-        <li><a class="underline" href="#">Photos</a></li>
-        <li><a class="underline" href="#">Videos</a></li>
-        <li><a class="underline" href="#">Contact</a></li>
+        <li><a class="underline" href="#">home</a></li>
+        <li><a class="underline" href="#">biography</a></li>
+        <li><a class="underline" href="#">credits</a></li>
+        <li><a class="underline" href="#">photos</a></li>
+        <li><a class="underline" href="#">videos</a></li>
+        <li><a class="underline" href="#">contact</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -38,7 +40,6 @@
   </nav>
   <div class="container">
     <br><br>
-    <h1 class="header center">Hakeem Onibudo</h1>
-</p>
+    <h1 class="header">I will fix this later</h1>
   </div>
 </div>
