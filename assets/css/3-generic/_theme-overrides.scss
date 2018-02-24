@@ -6,9 +6,16 @@
  * Made By MaterializeCSS.com
  */
 
+ nav {
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+  background-color: rgba(0,0,0,0) !important;
+ }
+
  nav ul a,
  nav .brand-logo {
-   color: #444;
+   color: $white;
  }
  
  p {
