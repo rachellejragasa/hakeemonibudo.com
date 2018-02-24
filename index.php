@@ -7,6 +7,7 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css" media="screen,projection">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection">
   <link href="<?php bloginfo('stylesheet_url');?>" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
@@ -39,7 +40,7 @@
 
       </div>
     </div>
-    <div class="parallax"><img src="<?php echo get_template_directory_uri() . '/images'; ?>/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
@@ -88,7 +89,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="<?php echo get_stylesheet_directory_uri() . '/images'; ?>/background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
@@ -114,7 +115,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="<?php echo get_stylesheet_directory_uri() . '/images'; ?>/background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer teal">
@@ -157,7 +158,7 @@
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <script src="<?php echo get_stylesheet_directory_uri() . '/js/init.js'; ?>"></script>
+  <script src="<?php echo get_template_directory_uri() . '/assets/js/init.js'; ?>"></script>
 
   </body>
 </html>
