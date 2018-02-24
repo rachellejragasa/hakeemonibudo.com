@@ -21,5 +21,28 @@ nav {
   nav ul a,
   nav .brand-logo {
     color: #fff; }
-  nav ul a:hover {
-    background: none; }
+  nav ul a {
+    padding: 0;
+    margin: 0 15px; }
+    nav ul a:hover {
+      background: none; }
+  nav .underline {
+    display: inline;
+    position: relative;
+    overflow: hidden; }
+    nav .underline:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      right: 0;
+      width: 0;
+      bottom: -6px;
+      background: #fff;
+      height: 2px;
+      transition-property: width;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-out; }
+    nav .underline:hover:after, nav .underline:focus:after, nav .underline:active:after {
+      left: 0;
+      right: auto;
+      width: 100%; }

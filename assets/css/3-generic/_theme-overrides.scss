@@ -18,8 +18,39 @@ nav {
         color: $white;
     }
 
-    ul a:hover {
-        background: none;
+    ul a {
+        padding: 0;
+        margin: 0 15px;
+        &:hover {
+            background: none;
+        }
     }
 
+    .underline {
+        display: inline;
+        position: relative;
+        overflow: hidden;
+
+        &:after {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            right: 0;
+            width: 0;
+            bottom: -6px;
+            background: $white;
+            height: 2px;
+            transition-property: width;
+            transition-duration: 0.3s;
+            transition-timing-function: ease-out;
+        }
+
+        &:hover:after,
+        &:focus:after,
+        &:active:after {
+            left: 0;
+            right: auto;
+            width: 100%;
+        }
+    }
 }

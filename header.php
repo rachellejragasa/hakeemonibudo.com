@@ -17,12 +17,12 @@
   <nav role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Biography</a></li>
-        <li><a href="#">Credits</a></li>
-        <li><a href="#">Photos</a></li>
-        <li><a href="#">Videos</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a class="underline" href="#">Home</a></li>
+        <li><a class="underline" href="#">Biography</a></li>
+        <li><a class="underline" href="#">Credits</a></li>
+        <li><a class="underline" href="#">Photos</a></li>
+        <li><a class="underline" href="#">Videos</a></li>
+        <li><a class="underline" href="#">Contact</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -39,5 +39,6 @@
   <div class="container">
     <br><br>
     <h1 class="header center">Hakeem Onibudo</h1>
+</p>
   </div>
 </div>
