@@ -126,6 +126,21 @@ nav {
     }
 }
 
+.videos {
+    &__gallery {
+        li {
+            display: inline-block;
+            padding-right: 20px;
+            padding-bottom: 20px;
+
+            &:nth-last-child(-n+2) {
+                padding-bottom: 0;
+            }
+        }
+
+    }
+}
+
 .contact {
     background-color: $light-grey;
     color: $black;
