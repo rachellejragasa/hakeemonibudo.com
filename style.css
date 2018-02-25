@@ -57,6 +57,37 @@ nav {
   color: #fff; }
 
 /**************** 
+* MAIN CONTENT
+*****************/
+.main-content.container {
+  width: 85%; }
+
+.biography,
+.credits,
+.photos,
+.videos,
+.contact {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.biography__heading {
+  font-weight: bold; }
+
+.credits {
+  background-color: #000;
+  color: #fff; }
+  .credits .container {
+    width: 85%; }
+  .credits__heading {
+    font-weight: 700; }
+  .credits__sub-heading {
+    padding-bottom: 15px; }
+  .credits__section {
+    padding-bottom: 50px; }
+    .credits__section p {
+      font-weight: 300; }
+
+/**************** 
 * MEDIA QUERIES
 *****************/
 @media only screen and (min-width: 993px) {
@@ -68,4 +99,16 @@ nav {
     padding-left: 30px; } }
 
 html {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5em; }
+
+p {
+  line-height: 1.668em; }
