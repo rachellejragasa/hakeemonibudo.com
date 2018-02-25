@@ -41,6 +41,6 @@
   </nav>
   <div class="container">
     <br><br>
-    <h1 class="header">I will fix this later</h1>
+    <h1 class="header"></h1>
   </div>
 </div>

@@ -74,8 +74,8 @@ nav {
   font-weight: bold; }
 
 .credits {
-  background-color: #000;
-  color: #fff; }
+  background-color: #f2f0ef;
+  color: #000; }
   .credits .container {
     width: 85%; }
   .credits__heading {
@@ -125,7 +125,6 @@ nav {
     padding-left: 30px; } }
 
 html {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 400; }
 
 h1,
@@ -138,3 +137,57 @@ h6 {
 
 p {
   line-height: 1.668em; }
+
+/*
+   FONT FAMILY
+*/
+.serif {
+  font-family: georgia, serif; }
+
+.sans-serif, html {
+  font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
+
+.font-fantasy {
+  font-family: fantasy; }
+
+.font-cursive {
+  font-family: cursive; }
+
+.font-mono {
+  font-family: monospace; }
+
+@media screen and (min-width: 48em) {
+  .serif-ns {
+    font-family: georgia, serif; }
+  .sans-serif-ns {
+    font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
+  .font-fantasy-ns {
+    font-family: fantasy; }
+  .font-cursive-ns {
+    font-family: cursive; }
+  .font-mono-ns {
+    font-family: monospace; } }
+
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .serif-m {
+    font-family: georgia, serif; }
+  .sans-serif-m {
+    font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
+  .font-fantasy-m {
+    font-family: fantasy; }
+  .font-cursive-m {
+    font-family: cursive; }
+  .font-mono-m {
+    font-family: monospace; } }
+
+@media screen and (min-width: 64em) {
+  .serif-l {
+    font-family: georgia, serif; }
+  .sans-serif-l {
+    font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
+  .font-fantasy-l {
+    font-family: fantasy; }
+  .font-cursive-l {
+    font-family: cursive; }
+  .font-mono-l {
+    font-family: monospace; } }
