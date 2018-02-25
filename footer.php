@@ -4,8 +4,12 @@
         <div class="col s2">
           <p>Copyright © Hakeem Onibudo</p>
         </div>  
-        <div class="col s5">
-
+        <div class="col s8">
+          <ul class="page-footer__social-media">
+            <li><a href="https://twitter.com/hakeemonibudo"><i class="fa fa-fw fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/hakeem.onibudo"><i class="fa fa-fw fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/hakeemonibudo/"><i class="fa fa-fw fa-instagram"></i></a></li>
+          </ul>
         </div>  
       </div>
     </div>

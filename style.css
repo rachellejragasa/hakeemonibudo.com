@@ -96,6 +96,17 @@ nav {
   color: #fff; }
   .page-footer .row {
     margin-bottom: 0px; }
+  .page-footer__social-media {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center; }
+    .page-footer__social-media li {
+      display: inline-block; }
+      .page-footer__social-media li a {
+        padding-left: 10px;
+        padding-right: 10px; }
+        .page-footer__social-media li a i {
+          color: #807f83; }
 
 .footer-copyright .container {
   width: 85%; }
