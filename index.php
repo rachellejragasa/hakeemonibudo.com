@@ -190,7 +190,13 @@
     <div id="contact" class="contact section">
       <div class="row">
         <div class="container">
-          <h4 class="contact__heading">Contact</h4>
+          <div class="col s3">
+            <h4 class="contact__heading">Contact</h4>
+          </div>
+          <div class="col s9">
+            <h5>Tel: +44 (0) 7768 413 869</h5>
+            <h5>Email: hakeem@impactdance.co.uk</h5>
+          </div>
         </div>
       </div>
     </div>
