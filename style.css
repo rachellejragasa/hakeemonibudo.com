@@ -140,7 +140,11 @@ nav {
     padding-bottom: 15px;
     padding-right: 30px;
     padding-left: 30px; }
-  .container {
+  .biography .container,
+  .credits .container,
+  .photos .container,
+  .videos .container,
+  .contact .container {
     width: 85%; } }
 
 @media only screen and (max-width: 993px) {

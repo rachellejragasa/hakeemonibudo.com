@@ -192,9 +192,16 @@ nav {
         padding-left: 30px;
     }
 
-    .container {
-        width: 85%;
+    .biography,
+    .credits,
+    .photos,
+    .videos,
+    .contact {
+        .container {
+            width: 85%;
+        }
     }
+    
 }
 
 @media only screen and (max-width: 993px) {

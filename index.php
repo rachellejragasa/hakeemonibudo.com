@@ -3,35 +3,37 @@
 <!-- Biography Section -->
   <div id="biography" class="biography">
     <div class="row">
-      <div class="col s12">
-        <h5 class="biography__heading">Hakeem is an experienced and professional event host who has been regularly presenting and 
-            entertaining on the red carpet at high profile film premiers in London since 2010.</h5>
-      </div>
-      <div class="col s12">
-        <p>His movie
-            premiers include: Suicide Squad, Captain America - Civil War, Star Wars: The Force Awakens,
-            The Revenant, Minions, Avengers Age of Ultron, Hunger Games, Captain America - The Winter Solider,
-            Frozen plus many more. He regular works with clients such as Paramount Pictures, Sony Pictures,
-            Disney, Warner Brothers and Sassy Films.</p>
+      <div class="container">
+        <div class="col s12 m12 l6 xl6">
+          <h5 class="biography__heading">Hakeem is an experienced and professional event host who has been regularly presenting and 
+              entertaining on the red carpet at high profile film premiers in London since 2010.</h5>
+        </div>
+        <div class="col s12 m12 l5 xl5">
+          <p>His movie
+              premiers include: Suicide Squad, Captain America - Civil War, Star Wars: The Force Awakens,
+              The Revenant, Minions, Avengers Age of Ultron, Hunger Games, Captain America - The Winter Solider,
+              Frozen plus many more. He regular works with clients such as Paramount Pictures, Sony Pictures,
+              Disney, Warner Brothers and Sassy Films.</p>
 
-        <p>Hakeem is also an accomplished peformer, choreographer/director, mentor and British Council
-            ambassador who began teaching dance in 1995, when he formed the company Impact Dance. Hakeem's
-            dance portfolio includes organisations such as BBC, Nickelodeon, CH4, Endemol, ITV, The Duke of
-            Edinburgh Awards, The Royal Ballet School, The Royal Opera House, Sadler's Wells, and the British
-            Council.</p>
+          <p>Hakeem is also an accomplished peformer, choreographer/director, mentor and British Council
+              ambassador who began teaching dance in 1995, when he formed the company Impact Dance. Hakeem's
+              dance portfolio includes organisations such as BBC, Nickelodeon, CH4, Endemol, ITV, The Duke of
+              Edinburgh Awards, The Royal Ballet School, The Royal Opera House, Sadler's Wells, and the British
+              Council.</p>
 
-        <p>Hakeem is the artistic director and founder of Impact Dance and creator and host of LIVE VIBE, 
-            a performance platform created in 2008 with previous residency at Sadler’s Wells, Peacock Theatre 
-            and Rich Mix. The concept was taken to Hong Kong in December 2010/2013 and created and produced in 
-            partnership with the British Council in Zimbabwe in February 2012.</p>
+          <p>Hakeem is the artistic director and founder of Impact Dance and creator and host of LIVE VIBE, 
+              a performance platform created in 2008 with previous residency at Sadler’s Wells, Peacock Theatre 
+              and Rich Mix. The concept was taken to Hong Kong in December 2010/2013 and created and produced in 
+              partnership with the British Council in Zimbabwe in February 2012.</p>
 
-        <p>Hakeem has recently recieved the CHANGEMAKERS award by Arts Council England, which will allow 
-            him to lead on  a number of projects at the Place (Contemporary Dance Trust) over the next 18 months 
-            aiming at increasing the the number of Black, Asian and minority ethnic people who engage with the 
-            organisation.</p>
+          <p>Hakeem has recently recieved the CHANGEMAKERS award by Arts Council England, which will allow 
+              him to lead on  a number of projects at the Place (Contemporary Dance Trust) over the next 18 months 
+              aiming at increasing the the number of Black, Asian and minority ethnic people who engage with the 
+              organisation.</p>
 
-        <p>An expert Master of Ceremonies (MC), Hakeem is spontaneous, versatile, quick thinking. Hakeem 
-            is available for broadcast media, corporate event hosting and artistic direction.</p>
+          <p>An expert Master of Ceremonies (MC), Hakeem is spontaneous, versatile, quick thinking. Hakeem 
+              is available for broadcast media, corporate event hosting and artistic direction.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -144,7 +146,7 @@
 </div>    
 
 <!-- Photos Section -->
-<div id="photos" class="photos section">
+<!-- <div id="photos" class="photos section">
   <div class="row">
     <div class="container">
       <div class="col s3">
@@ -172,10 +174,10 @@
     </div>
   </div>
  </div>
-</div>
+</div> -->
 
 <!-- Videos Section -->
-<div id="videos" class="videos section">
+<!-- <div id="videos" class="videos section">
   <div class="row">
     <div class="container">
       <div class="col s3">
@@ -193,7 +195,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- Contact Section -->
 <!-- <div id="contact" class="contact section">
