@@ -71,10 +71,8 @@ nav {
 * MAIN CONTENT
 *****************/
 
-.main-content {
-    &.container {
-        width: 85%;
-    }
+.container {
+    width: 85%;
 }
 
 .biography,
@@ -84,9 +82,7 @@ nav {
 .contact {
     padding-top: $section-spacing;
     padding-bottom: $section-spacing;
-}
 
-.biography {
     &__heading {
         font-weight: bold;
     }
@@ -95,14 +91,6 @@ nav {
 .credits {
     background-color: $light-grey;
     color: $black;
-    
-    .container {
-        width: 85%;
-    }
-
-    &__heading {
-        font-weight: 700;
-    }
 
     &__sub-heading {
         padding-bottom: 15px;
@@ -110,11 +98,37 @@ nav {
 
     &__section {
         padding-bottom: 50px;
+    }
+}
 
-        p {
-            font-weight: 300;
+.photos {
+    background-color: $black;
+    color: $white;
+
+    &__gallery {
+        li {
+            display: inline-block;
+            padding-right: 20px;
+            padding-bottom: 20px;
+
+            img {
+                max-width: 280px;
+            }
+
+            &:nth-child(3n) {
+                padding: 0;
+            }
+
+            &:nth-last-child(-n+3) {
+                padding-bottom: 0;
+            }
         }
     }
+}
+
+.contact {
+    background-color: $light-grey;
+    color: $black;
 }
 
 /**************** 
@@ -149,8 +163,6 @@ nav {
 
 .footer-copyright {
     .container {
-        width: 85%;
-
         p {
             font-size: 12px;
         }

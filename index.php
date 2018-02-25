@@ -39,14 +39,14 @@
     </div>
 </div>    
 
-    <!-- Biography Section -->
+    <!-- Credidts Section -->
     <div id="credits" class="credits section">
       <div class="row">
         <div class="container">
           <div class="col s3">
               <h4 class="credits__heading">Credits</h4>
           </div>
-          <div class="col s8">
+          <div class="col s9">
             <div class="credits__section">
               <h5 class="credits__sub-heading">Red Carpet Movie Premieres
                   <br>    
@@ -151,7 +151,28 @@
     <div id="photos" class="photos section">
       <div class="row">
         <div class="container">
-          <h4>Photos</h4>
+          <div class="col s3">
+            <h4 class="photos__heading">Photos</h4>
+          </div>  
+          <div class="col s9 photos__gallery">
+            <ul>
+              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image1.png"></li>
+              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image2.png"></li>
+              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image3.png"></li>
+              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image4.png"></li>
+              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image5.png"></li>
+              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image6.png"></li>
+              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image7.png"></li>
+              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image8.png"></li>
+              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image9.png"></li>
+              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image10.png"></li>
+              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image11.png"></li>
+              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image12.png"></li>
+              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image13.png"></li>
+              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image14.png"></li>
+              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image15.png"></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -160,7 +181,7 @@
     <div id="videos" class="videos section">
       <div class="row">
         <div class="container">
-          <h4>Videos</h4>
+          <h4 class="videos__heading">Videos</h4>
         </div>
       </div>
     </div>
@@ -169,7 +190,7 @@
     <div id="contact" class="contact section">
       <div class="row">
         <div class="container">
-          <h4>Contact</h4>
+          <h4 class="contact__heading">Contact</h4>
         </div>
       </div>
     </div>

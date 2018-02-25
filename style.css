@@ -59,7 +59,7 @@ nav {
 /**************** 
 * MAIN CONTENT
 *****************/
-.main-content.container {
+.container {
   width: 85%; }
 
 .biography,
@@ -69,23 +69,38 @@ nav {
 .contact {
   padding-top: 100px;
   padding-bottom: 100px; }
-
-.biography__heading {
-  font-weight: bold; }
+  .biography__heading,
+  .credits__heading,
+  .photos__heading,
+  .videos__heading,
+  .contact__heading {
+    font-weight: bold; }
 
 .credits {
   background-color: #f2f0ef;
   color: #000; }
-  .credits .container {
-    width: 85%; }
-  .credits__heading {
-    font-weight: 700; }
   .credits__sub-heading {
     padding-bottom: 15px; }
   .credits__section {
     padding-bottom: 50px; }
-    .credits__section p {
-      font-weight: 300; }
+
+.photos {
+  background-color: #000;
+  color: #fff; }
+  .photos__gallery li {
+    display: inline-block;
+    padding-right: 20px;
+    padding-bottom: 20px; }
+    .photos__gallery li img {
+      max-width: 280px; }
+    .photos__gallery li:nth-child(3n) {
+      padding: 0; }
+    .photos__gallery li:nth-last-child(-n+3) {
+      padding-bottom: 0; }
+
+.contact {
+  background-color: #f2f0ef;
+  color: #000; }
 
 /**************** 
 * FOOTER
@@ -108,10 +123,8 @@ nav {
         .page-footer__social-media li a i {
           color: #807f83; }
 
-.footer-copyright .container {
-  width: 85%; }
-  .footer-copyright .container p {
-    font-size: 12px; }
+.footer-copyright .container p {
+  font-size: 12px; }
 
 /**************** 
 * MEDIA QUERIES
