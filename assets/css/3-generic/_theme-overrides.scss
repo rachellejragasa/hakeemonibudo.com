@@ -118,6 +118,29 @@ nav {
 }
 
 /**************** 
+* FOOTER
+*****************/
+.page-footer {
+    padding-top: 0;
+    background-color: $black;
+    color: $white;
+
+    .row {
+        margin-bottom: 0px;
+    }
+}
+
+.footer-copyright {
+    .container {
+        width: 85%;
+
+        p {
+            font-size: 12px;
+        }
+    }
+}
+
+/**************** 
 * MEDIA QUERIES
 *****************/
 @media only screen and (min-width: 993px) {

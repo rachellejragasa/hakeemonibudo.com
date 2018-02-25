@@ -88,6 +88,21 @@ nav {
       font-weight: 300; }
 
 /**************** 
+* FOOTER
+*****************/
+.page-footer {
+  padding-top: 0;
+  background-color: #000;
+  color: #fff; }
+  .page-footer .row {
+    margin-bottom: 0px; }
+
+.footer-copyright .container {
+  width: 85%; }
+  .footer-copyright .container p {
+    font-size: 12px; }
+
+/**************** 
 * MEDIA QUERIES
 *****************/
 @media only screen and (min-width: 993px) {
