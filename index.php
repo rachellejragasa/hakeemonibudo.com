@@ -1,53 +1,50 @@
 <?php get_header(); ?>  
 
-<div class="main-content container">
-
-    <!-- Biography Section -->
-    <div id="biography" class="biography section">
-      <div class="row">
-          <div class="col s6">
-            <h5 class="biography__heading">Hakeem is an experienced and professional event host who has been regularly presenting and 
+<!-- Biography Section -->
+  <div id="biography" class="biography">
+    <div class="row">
+      <div class="col s12">
+        <h5 class="biography__heading">Hakeem is an experienced and professional event host who has been regularly presenting and 
             entertaining on the red carpet at high profile film premiers in London since 2010.</h5>
-          </div>
-          <div class="col s5">
-            <p>His movie
+      </div>
+      <div class="col s12">
+        <p>His movie
             premiers include: Suicide Squad, Captain America - Civil War, Star Wars: The Force Awakens,
             The Revenant, Minions, Avengers Age of Ultron, Hunger Games, Captain America - The Winter Solider,
             Frozen plus many more. He regular works with clients such as Paramount Pictures, Sony Pictures,
             Disney, Warner Brothers and Sassy Films.</p>
 
-            <p>Hakeem is also an accomplished peformer, choreographer/director, mentor and British Council
+        <p>Hakeem is also an accomplished peformer, choreographer/director, mentor and British Council
             ambassador who began teaching dance in 1995, when he formed the company Impact Dance. Hakeem's
             dance portfolio includes organisations such as BBC, Nickelodeon, CH4, Endemol, ITV, The Duke of
             Edinburgh Awards, The Royal Ballet School, The Royal Opera House, Sadler's Wells, and the British
             Council.</p>
 
-            <p>Hakeem is the artistic director and founder of Impact Dance and creator and host of LIVE VIBE, 
+        <p>Hakeem is the artistic director and founder of Impact Dance and creator and host of LIVE VIBE, 
             a performance platform created in 2008 with previous residency at Sadler’s Wells, Peacock Theatre 
             and Rich Mix. The concept was taken to Hong Kong in December 2010/2013 and created and produced in 
             partnership with the British Council in Zimbabwe in February 2012.</p>
 
-            <p>Hakeem has recently recieved the CHANGEMAKERS award by Arts Council England, which will allow 
+        <p>Hakeem has recently recieved the CHANGEMAKERS award by Arts Council England, which will allow 
             him to lead on  a number of projects at the Place (Contemporary Dance Trust) over the next 18 months 
             aiming at increasing the the number of Black, Asian and minority ethnic people who engage with the 
             organisation.</p>
 
-            <p>An expert Master of Ceremonies (MC), Hakeem is spontaneous, versatile, quick thinking. Hakeem 
+        <p>An expert Master of Ceremonies (MC), Hakeem is spontaneous, versatile, quick thinking. Hakeem 
             is available for broadcast media, corporate event hosting and artistic direction.</p>
-          </div>
       </div>
     </div>
-</div>    
+  </div>
 
-    <!-- Credidts Section -->
-    <div id="credits" class="credits section">
-      <div class="row">
-        <div class="container">
-          <div class="col s3">
-              <h4 class="credits__heading">Credits</h4>
-          </div>
-          <div class="col s9">
-            <div class="credits__section">
+<!-- Credidts Section -->
+  <div id="credits" class="credits section">
+    <div class="row">
+      <div class="container">
+        <div class="col s3">
+            <h4 class="credits__heading">Credits</h4>
+        </div>
+        <div class="col s9">
+          <div class="credits__section">
               <h5 class="credits__sub-heading">Red Carpet Movie Premieres
                   <br>    
                   Warm-up Host and Host/Master of Ceremonies
@@ -140,77 +137,77 @@
               Disability in sports Islington Disabled children access to dance 2012/2013/2014
               </p>
             </div>
-          </div>
         </div>
       </div>
     </div>
+  </div>
 </div>    
 
-
-    <!-- Photos Section -->
-    <div id="photos" class="photos section">
-      <div class="row">
-        <div class="container">
-          <div class="col s3">
-            <h4 class="photos__heading">Photos</h4>
-          </div>  
-          <div class="col s9">
-            <ul class="photos__gallery">
-              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image1.png"></li>
-              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image2.png"></li>
-              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image3.png"></li>
-              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image4.png"></li>
-              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image5.png"></li>
-              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image6.png"></li>
-              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image7.png"></li>
-              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image8.png"></li>
-              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image9.png"></li>
-              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image10.png"></li>
-              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image11.png"></li>
-              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image12.png"></li>
-              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image13.png"></li>
-              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image14.png"></li>
-              <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image15.png"></li>
-            </ul>
-          </div>
-        </div>
+<!-- Photos Section -->
+<div id="photos" class="photos section">
+  <div class="row">
+    <div class="container">
+      <div class="col s3">
+        <h4 class="photos__heading">Photos</h4>
+      </div>  
+      <div class="col s9">
+        <ul class="photos__gallery">
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image1.png"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image2.png"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image3.png"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image4.png"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image5.png"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image6.png"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image7.png"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image8.png"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image9.png"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image10.png"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image11.png"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image12.png"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image13.png"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image14.png"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image15.png"></li>
+        </ul>
       </div>
     </div>
+  </div>
+ </div>
+</div>
 
-    <!-- Videos Section -->
-    <div id="videos" class="videos section">
-      <div class="row">
-        <div class="container">
-        <div class="col s3">
-            <h4 class="videos__heading">Videos</h4>
-          </div>  
-          <div class="col s9">
-            <ul class="videos__gallery">
-              <li><iframe width="360" height="215" src="https://www.youtube.com/embed/cv6d34Hlxlg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
-              <li><iframe width="360" height="215" src="https://www.youtube.com/embed/4Zk7t6zzRWE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
-              <li><iframe width="360" height="215" src="https://www.youtube.com/embed/_TOd4RIx7I0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
-              <li><iframe width="360" height="215" src="https://www.youtube.com/embed/edgy0kfSEBU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
-              <li><iframe width="360" height="215" src="https://www.youtube.com/embed/nXyPTefuZIE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
-              <li><iframe width="360" height="215" src="https://www.youtube.com/embed/StM3ua4d3rQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
-            </ul>
-          </div>
-        </div>
+<!-- Videos Section -->
+<div id="videos" class="videos section">
+  <div class="row">
+    <div class="container">
+      <div class="col s3">
+        <h4 class="videos__heading">Videos</h4>
+      </div>  
+      <div class="col s9">
+        <ul class="videos__gallery">
+          <li><iframe width="360" height="215" src="https://www.youtube.com/embed/cv6d34Hlxlg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+          <li><iframe width="360" height="215" src="https://www.youtube.com/embed/4Zk7t6zzRWE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+          <li><iframe width="360" height="215" src="https://www.youtube.com/embed/_TOd4RIx7I0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+          <li><iframe width="360" height="215" src="https://www.youtube.com/embed/edgy0kfSEBU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+          <li><iframe width="360" height="215" src="https://www.youtube.com/embed/nXyPTefuZIE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+          <li><iframe width="360" height="215" src="https://www.youtube.com/embed/StM3ua4d3rQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+        </ul>
       </div>
     </div>
+  </div>
+</div>
 
-    <!-- Contact Section -->
-    <div id="contact" class="contact section">
-      <div class="row">
-        <div class="container">
-          <div class="col s3">
-            <h4 class="contact__heading">Contact</h4>
-          </div>
-          <div class="col s9">
-            <h5>Tel: +44 (0) 7768 413 869</h5>
-            <h5>Email: hakeem@impactdance.co.uk</h5>
-          </div>
-        </div>
+<!-- Contact Section -->
+<!-- <div id="contact" class="contact section">
+  <div class="row">
+    <div class="container">
+      <div class="col s12 l3 xl3">
+        <h4 class="contact__heading">Contact</h4>
+      </div>
+      <div class="col s9">
+        <h5>Tel: +44 (0) 7768 413 869</h5>
+        <h5>Email: hakeem@impactdance.co.uk</h5>
       </div>
     </div>
+  </div>
+</div> -->
 
 <?php get_footer(); ?>

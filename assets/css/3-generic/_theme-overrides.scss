@@ -71,10 +71,6 @@ nav {
 * MAIN CONTENT
 *****************/
 
-.container {
-    width: 85%;
-}
-
 .biography,
 .credits,
 .photos,
@@ -194,5 +190,24 @@ nav {
         padding-bottom: 15px;
         padding-right: 30px;
         padding-left: 30px;
+    }
+
+    .container {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 993px) {
+    
+    .biography,
+    .credits,
+    .photos,
+    .videos,
+    .contact {
+        padding-top: $section-spacing-half;
+        padding-bottom: $section-spacing-half;
+        padding-left: $section-spacing-mid;
+        padding-right: $section-spacing-mid;
+        
     }
 }
