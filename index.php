@@ -198,18 +198,18 @@
 </div>
 
 <!-- Contact Section -->
-<!-- <div id="contact" class="contact section">
+<div id="contact" class="contact section">
   <div class="row">
     <div class="container">
-      <div class="col s12 l3 xl3">
+      <div class="col s12 m12 l3 xl3">
         <h4 class="contact__heading">Contact</h4>
       </div>
-      <div class="col s9">
+      <div class="col s12 m12 l9 xl9">
         <h5>Tel: +44 (0) 7768 413 869</h5>
         <h5>Email: hakeem@impactdance.co.uk</h5>
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
 <?php get_footer(); ?>
