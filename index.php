@@ -42,10 +42,10 @@
   <div id="credits" class="credits section">
     <div class="row">
       <div class="container">
-        <div class="col s3">
+        <div class="col s12 m12 l3 xl3">
             <h4 class="credits__heading">Credits</h4>
         </div>
-        <div class="col s9">
+        <div class="col s12 m12 l9 xl9">
           <div class="credits__section">
               <h5 class="credits__sub-heading">Red Carpet Movie Premieres
                   <br>    
