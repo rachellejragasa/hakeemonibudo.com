@@ -146,7 +146,7 @@
 </div>    
 
 <!-- Photos Section -->
-<!-- <div id="photos" class="photos section">
+<div id="photos" class="photos section">
   <div class="row">
     <div class="container">
       <div class="col s3">
@@ -174,10 +174,10 @@
     </div>
   </div>
  </div>
-</div> -->
+</div>
 
 <!-- Videos Section -->
-<!-- <div id="videos" class="videos section">
+<div id="videos" class="videos section">
   <div class="row">
     <div class="container">
       <div class="col s3">
@@ -195,10 +195,10 @@
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
 <!-- Contact Section -->
-<!-- <div id="contact" class="contact section">
+<div id="contact" class="contact section">
   <div class="row">
     <div class="container">
       <div class="col s12 l3 xl3">
@@ -210,6 +210,6 @@
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
 <?php get_footer(); ?>
