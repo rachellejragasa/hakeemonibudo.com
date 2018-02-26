@@ -157,7 +157,8 @@ nav {
     padding-bottom: 50px;
     padding-left: 30px;
     padding-right: 30px; }
-  .photos {
+  .photos,
+  .videos {
     text-align: center; } }
 
 html {

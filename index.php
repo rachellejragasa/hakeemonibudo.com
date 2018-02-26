@@ -177,13 +177,13 @@
 </div>
 
 <!-- Videos Section -->
-<!-- <div id="videos" class="videos section">
+<div id="videos" class="videos section">
   <div class="row">
     <div class="container">
-      <div class="col s3">
+      <div class="col s12 m12 l3 xl3">
         <h4 class="videos__heading">Videos</h4>
       </div>  
-      <div class="col s9">
+      <div class="col s12 m12 l9 xl9">
         <ul class="videos__gallery">
           <li><iframe width="360" height="215" src="https://www.youtube.com/embed/cv6d34Hlxlg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
           <li><iframe width="360" height="215" src="https://www.youtube.com/embed/4Zk7t6zzRWE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
@@ -195,7 +195,7 @@
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
 <!-- Contact Section -->
 <!-- <div id="contact" class="contact section">
