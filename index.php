@@ -149,10 +149,10 @@
 <div id="photos" class="photos section">
   <div class="row">
     <div class="container">
-      <div class="col s3">
+      <div class="col s12">
         <h4 class="photos__heading">Photos</h4>
       </div>  
-      <div class="col s9">
+      <div class="col s12">
         <ul class="photos__gallery">
           <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image1.png"></li>
           <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image2.png"></li>
@@ -177,7 +177,7 @@
 </div>
 
 <!-- Videos Section -->
-<div id="videos" class="videos section">
+<!-- <div id="videos" class="videos section">
   <div class="row">
     <div class="container">
       <div class="col s3">
@@ -195,10 +195,10 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- Contact Section -->
-<div id="contact" class="contact section">
+<!-- <div id="contact" class="contact section">
   <div class="row">
     <div class="container">
       <div class="col s12 l3 xl3">
@@ -210,6 +210,6 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <?php get_footer(); ?>
