@@ -99,7 +99,7 @@ nav {
     padding-right: 20px;
     padding-bottom: 20px; }
     .photos__gallery li img {
-      max-width: 280px; }
+      width: 100%; }
     .photos__gallery li:nth-child(3n) {
       padding: 0; }
     .photos__gallery li:nth-last-child(-n+3) {
