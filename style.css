@@ -134,7 +134,7 @@ nav {
       .page-footer__social-media li a {
         padding-left: 10px;
         padding-right: 10px; }
-        .page-footer__social-media li a i {
+        .page-footer__social-media li a svg {
           color: #807f83; }
 
 .footer-copyright .container p {
