@@ -156,6 +156,12 @@ nav {
 .contact {
     background-color: $light-grey;
     color: $black;
+
+    a,
+    a:active,
+    a:visited {
+        color: $black;
+    }
 }
 
 /**************** 

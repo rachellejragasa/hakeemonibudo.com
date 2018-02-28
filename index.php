@@ -299,7 +299,7 @@
       </div>
       <div class="col s12 m12 l9 xl9">
         <h5><i class="fas fa-phone"></i> +44 (0) 7768 413 869</h5>
-        <h5><i class="fas fa-envelope"></i> hakeem@impactdance.co.uk</h5>
+        <h5><i class="fas fa-envelope"></i><a href="mailto:hakeem@impactdance.co.uk">hakeem@impactdance.co.uk</a></h5>
       </div>
     </div>
   </div>

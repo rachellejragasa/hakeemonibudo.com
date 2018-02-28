@@ -150,6 +150,10 @@ nav {
 .contact {
   background-color: #f2f0ef;
   color: #000; }
+  .contact a,
+  .contact a:active,
+  .contact a:visited {
+    color: #000; }
 
 /**************** 
 * FOOTER
