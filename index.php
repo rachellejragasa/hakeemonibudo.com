@@ -176,27 +176,117 @@
  </div>
 </div>
 
-<!-- Videos Section -->
-<div id="videos" class="videos section">
+<!-- Videos Section Desktop -->
+<div id="videos" class="videos">
   <div class="row">
     <div class="container">
       <div class="col s12 m12 l3 xl3">
         <h4 class="videos__heading">Videos</h4>
       </div>  
-      <div class="col s12 m12 l9 xl9 videos__gallery">
-        <!-- <ul class="videos__gallery">
-          <li class="video-container"><iframe width="360" height="215" src="https://www.youtube.com/embed/cv6d34Hlxlg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
-          <li class="video-container"><iframe width="360" height="215" src="https://www.youtube.com/embed/4Zk7t6zzRWE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
-          <li class="video-container"><iframe width="360" height="215" src="https://www.youtube.com/embed/_TOd4RIx7I0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
-          <li class="video-container"><iframe width="360" height="215" src="https://www.youtube.com/embed/edgy0kfSEBU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
-          <li class="video-container"><iframe width="360" height="215" src="https://www.youtube.com/embed/nXyPTefuZIE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
-          <li class="video-container"><iframe width="360" height="215" src="https://www.youtube.com/embed/StM3ua4d3rQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
-        </ul> -->
-        <ul class="video-container">
+      <div class="col l9 xl9 videos__gallery">
+        <ul class="videos__gallery">
           <li><iframe width="360" height="215" src="https://www.youtube.com/embed/cv6d34Hlxlg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+          <li><iframe width="360" height="215" src="https://www.youtube.com/embed/4Zk7t6zzRWE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+          <li><iframe width="360" height="215" src="https://www.youtube.com/embed/_TOd4RIx7I0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+          <li><iframe width="360" height="215" src="https://www.youtube.com/embed/edgy0kfSEBU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+          <li><iframe width="360" height="215" src="https://www.youtube.com/embed/nXyPTefuZIE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+          <li><iframe width="360" height="215" src="https://www.youtube.com/embed/StM3ua4d3rQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
         </ul>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- Videos Section Mobile -->
+<div id="videos" class="videos-mob">
+  <div class="row">
+    <div class="container">
+      <div class="col s12 m12">
+        <h4 class="videos__heading">Videos</h4>
+      </div>  
+    </div>
+  </div>
+  <div class="col s12 m12">
+    <ul>
+      <li>
+        <div class="video-container">
+          <iframe width="360" height="215" src="https://www.youtube.com/embed/cv6d34Hlxlg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videos-mob__description">
+          <div class="row">
+            <div class="container">
+              <h6>Move It 2016</h6>  
+              <p>Hakeem Onibudo hosts the mainstage at Move It 2016</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="video-container">
+          <iframe width="360" height="215" src="https://www.youtube.com/embed/4Zk7t6zzRWE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videos-mob__description">
+          <div class="row">
+            <div class="container">
+              <h6>The 20 Year Story</h6>  
+              <p>Motivate, Lead and Inspire</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="video-container">
+          <iframe width="360" height="215" src="https://www.youtube.com/embed/_TOd4RIx7I0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videos-mob__description">
+          <div class="row">
+            <div class="container">
+              <h6>Avengers Premier</h6>  
+              <p>Hakeem Onibudo hosting at the Premier of Avengers Movie.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="video-container">
+          <iframe width="360" height="215" src="https://www.youtube.com/embed/edgy0kfSEBU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videos-mob__description">
+          <div class="row">
+            <div class="container">
+              <h6>Red Carpet</h6>  
+              <p>Hakeem Onibudo hosting at the Red Carpet</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="video-container">
+          <iframe width="360" height="215" src="https://www.youtube.com/embed/nXyPTefuZIE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videos-mob__description">
+          <div class="row">
+            <div class="container">
+              <h6>Hakeem Onibudo Showreel</h6>  
+              <p>Showreel of Hakeem Onibudo's work.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="video-container">
+          <iframe width="360" height="215" src="https://www.youtube.com/embed/StM3ua4d3rQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videos-mob__description">
+          <div class="row">
+            <div class="container">
+              <h6>Impact Dance Slippin</h6>  
+              <p>Impact Dance performs their piece Slippin at Live Vibe Generations.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
   </div>
 </div>
 

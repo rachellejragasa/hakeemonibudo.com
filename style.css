@@ -190,7 +190,7 @@ nav {
   .contact h5 svg {
     margin-right: 10px; } }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 992px) {
   nav {
     height: 100px;
     padding-top: 15px;
@@ -203,7 +203,11 @@ nav {
   .videos .container,
   .contact .container,
   .page-footer .container {
-    width: 85%; } }
+    width: 85%; }
+  .videos {
+    display: block; }
+    .videos-mob {
+      display: none; } }
 
 @media only screen and (max-width: 993px) {
   .biography,
@@ -218,9 +222,7 @@ nav {
   .photos {
     text-align: center; }
   .videos {
-    padding: 0; }
-    .videos__gallery {
-      padding: 0 !important; }
+    display: none; }
     .videos .video-container {
       position: relative;
       padding-bottom: 56.25%;
@@ -234,7 +236,15 @@ nav {
       top: 0;
       left: 0;
       width: 100%;
-      height: 100%; } }
+      height: 100%; }
+    .videos-mob {
+      display: block; }
+      .videos-mob .videos__heading {
+        margin-top: 40px; }
+      .videos-mob__description {
+        margin-top: 30px; }
+        .videos-mob__description h6 {
+          font-weight: bold; } }
 
 html {
   font-family: 'Avenir Next LT Pro';
