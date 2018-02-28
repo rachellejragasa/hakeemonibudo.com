@@ -18,10 +18,11 @@
 }
 
 nav {
+    position: fixed;
     -webkit-box-shadow: none;
 	-moz-box-shadow: none;
     box-shadow: none;
-    background-color: transparent !important;
+    background-color: $white;
 
     ul a,
     .brand-logo {
