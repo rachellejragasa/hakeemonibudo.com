@@ -184,14 +184,14 @@
         <h4 class="videos__heading">Videos</h4>
       </div>  
       <div class="col s12 m12 l9 xl9">
-        <ul class="videos__gallery">
+        <!-- <ul class="videos__gallery">
           <li><iframe width="360" height="215" src="https://www.youtube.com/embed/cv6d34Hlxlg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
           <li><iframe width="360" height="215" src="https://www.youtube.com/embed/4Zk7t6zzRWE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
           <li><iframe width="360" height="215" src="https://www.youtube.com/embed/_TOd4RIx7I0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
           <li><iframe width="360" height="215" src="https://www.youtube.com/embed/edgy0kfSEBU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
           <li><iframe width="360" height="215" src="https://www.youtube.com/embed/nXyPTefuZIE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
           <li><iframe width="360" height="215" src="https://www.youtube.com/embed/StM3ua4d3rQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </div>
@@ -205,8 +205,8 @@
         <h4 class="contact__heading">Contact</h4>
       </div>
       <div class="col s12 m12 l9 xl9">
-        <h5>Tel: +44 (0) 7768 413 869</h5>
-        <h5>Email: hakeem@impactdance.co.uk</h5>
+        <h5><i class="fas fa-phone"></i> +44 (0) 7768 413 869</h5>
+        <h5><i class="fas fa-envelope"></i> hakeem@impactdance.co.uk</h5>
       </div>
     </div>
   </div>
