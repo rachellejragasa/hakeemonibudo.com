@@ -12,11 +12,9 @@
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>" type="text/css" media="screen,projection"/>
 </head>
 <body>
-
-<div class="section no-pad-bot no-pad-top" id="index-banner">
-  <nav role="navigation">
+<nav role="navigation">
     <div class="nav-wrapper">
-      <a id="logo-container" href="#" class="brand-logo">Hakeem Onibudo</a>
+      <a id="logo-container" href="#home" class="brand-logo">Hakeem Onibudo</a>
       <ul class="right hide-on-med-and-down">
         <li><a class="underline" href="#home">home</a></li>
         <li><a class="underline" href="#biography">biography</a></li>
@@ -37,6 +35,7 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+<div class="section no-pad-bot no-pad-top" id="index-banner">
   <div class="container">
     <br><br>
     <h1 class="header">

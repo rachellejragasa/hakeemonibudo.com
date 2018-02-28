@@ -62,7 +62,7 @@ nav {
   background-color: transparent !important; }
   nav ul a,
   nav .brand-logo {
-    color: #fff; }
+    color: #000; }
   nav ul a {
     font-size: 14px;
     padding: 0;
@@ -91,14 +91,14 @@ nav {
       right: auto;
       width: 100%; }
   nav .material-icons {
-    color: #fff; }
+    color: #000; }
   nav .brand-logo {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.075em; }
 
 .header {
-  color: #fff; }
+  color: #000; }
 
 /**************** 
 * MAIN CONTENT
@@ -180,6 +180,8 @@ nav {
 * MEDIA QUERIES
 *****************/
 @media only screen and (max-width: 600px) {
+  nav .brand-logo {
+    font-size: 2vh; }
   .contact h5 {
     font-size: 1.0rem; }
     .contact h5 svg {
@@ -188,6 +190,10 @@ nav {
 @media only screen and (min-width: 600px) {
   .contact h5 svg {
     margin-right: 10px; } }
+
+@media (min-width: 600px) and (max-width: 993px) {
+  nav .brand-logo {
+    font-size: 2.8vh; } }
 
 @media only screen and (min-width: 992px) {
   nav {
