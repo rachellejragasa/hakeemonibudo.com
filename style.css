@@ -184,8 +184,8 @@ nav {
 * MEDIA QUERIES
 *****************/
 @media only screen and (max-width: 600px) {
-  nav .brand-logo {
-    font-size: 2vh; }
+  #index-banner {
+    height: 300px; }
   .contact h5 {
     font-size: 1.0rem; }
     .contact h5 svg {
@@ -196,8 +196,8 @@ nav {
     margin-right: 10px; } }
 
 @media (min-width: 600px) and (max-width: 993px) {
-  nav .brand-logo {
-    font-size: 2.8vh; } }
+  #index-banner {
+    height: 400px; } }
 
 @media only screen and (min-width: 992px) {
   nav {
@@ -219,6 +219,8 @@ nav {
       display: none; } }
 
 @media only screen and (max-width: 993px) {
+  nav .brand-logo {
+    font-size: 4.4vw; }
   .biography,
   .credits,
   .photos,
