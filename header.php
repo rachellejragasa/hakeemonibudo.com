@@ -33,7 +33,7 @@
         <li><a href="#biography">Biography</a></li>
         <li><a href="#credits">Credits</a></li>
         <li><a href="#photos">Photos</a></li>
-        <li><a href="#videos">Videos</a></li>
+        <li><a href="#videos-mob">Videos</a></li>
         <li><a href="#contact">Contact</a></li>
 </ul>
 <div class="section no-pad-bot no-pad-top" id="index-banner">

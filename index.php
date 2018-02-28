@@ -198,7 +198,7 @@
 </div>
 
 <!-- Videos Section Mobile -->
-<div id="videos" class="videos-mob">
+<div id="videos-mob" class="videos-mob">
   <div class="row">
     <div class="container">
       <div class="col s12 m12">
