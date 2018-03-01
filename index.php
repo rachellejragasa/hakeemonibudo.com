@@ -149,10 +149,10 @@
 <div id="photos" class="photos section">
   <div class="row">
     <div class="container">
-      <div class="col s12">
+      <div class="col s12 m12 l3 xl3">
         <h4 class="photos__heading">Photos</h4>
       </div>  
-      <div class="col s12">
+      <div class="col s12 m12 l9 xl9">
         <ul class="photos__gallery">
           <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image1.png"></li>
           <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image2.png"></li>
