@@ -64,27 +64,9 @@
       <div class="col s12 m12 l3 xl3">
         <h4 class="photos__heading">Photos</h4>
       </div>  
-      <div class="col s12 m12 l9 xl9">
-        <ul class="photos__gallery">
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image1.png"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image2.png"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image3.png"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image4.png"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image5.png"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image6.png"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image7.png"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image8.png"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image9.png"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image10.png"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image11.png"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image12.png"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image13.png"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image14.png"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image15.png"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/background-starwars.jpg"></li>
-          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/background-pose.jpg"></li>
-        </ul>
-      </div>
+      <?php 
+echo do_shortcode('[smartslider3 slider=3]');
+?>
     </div>
   </div>
  </div>
