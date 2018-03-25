@@ -30,11 +30,6 @@
     wp_nav_menu(array('menu' => 'primary', 'items_wrap' => '<ul><li id="item-id"></li>%3$s</ul>'));
   ?>
 </ul>
-<div class="section no-pad-bot no-pad-top" id="index-banner">
-  <div class="container">
-    <br><br>
-    <h1 class="header">
-    
-    </h1>
-  </div>
+<div class="section no-pad-bot no-pad-top" id="home">
+  <img src="<?php header_image();?>" alt="" />
 </div>

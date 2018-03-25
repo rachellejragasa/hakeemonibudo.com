@@ -2,20 +2,30 @@
 * HEADER SECTION
 *****************/
 
-#index-banner {
+#home {
     height: 550px;
-    background: url('assets/images/Headshot2.v4.jpg') 0px 0px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-
     img {
-        position: relative;
-        top: -150px;
+        /* Safari */
+        -webkit-transform: rotate(0deg);
+
+        /* Firefox */
+        -moz-transform: rotate(0deg);
+
+        /* IE */
+        -ms-transform: rotate(0deg);
+
+        /* Opera */
+        -o-transform: rotate(0deg);
+
+        /* Internet Explorer */
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 20%;
     }
+
 }
 
 nav {
@@ -208,7 +218,7 @@ nav {
 * MEDIA QUERIES
 *****************/
 @media only screen and (max-width: 600px) {
-    #index-banner {
+    #home {
         height: 300px;
     }
     .contact {
@@ -233,7 +243,7 @@ nav {
 }
 
 @media (min-width: 600px) and (max-width: 993px) {
-    #index-banner {
+    #home {
         height: 400px;
     }
 }
