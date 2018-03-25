@@ -209,11 +209,11 @@
   <div class="row">
     <div class="container">
       <div class="col s12 m12 l3 xl3">
-        <h4 class="contact__heading">Contact</h4>
+        <h4 class="contact__heading"><?php the_field('contact_heading');?></h4>
       </div>
       <div class="col s12 m12 l9 xl9">
-        <h5><i class="fas fa-phone"></i> +44 (0) 7768 413 869</h5>
-        <h5><i class="fas fa-envelope"></i><a href="mailto:hakeem@impactdance.co.uk">hakeem@impactdance.co.uk</a></h5>
+        <h5><i class="fas fa-phone"></i> <?php the_field('contact_number');?></h5>
+        <h5><i class="fas fa-envelope"></i><a href="mailto:hakeem@impactdance.co.uk"><?php the_field('contact_email');?></a></h5>
       </div>
     </div>
   </div>
