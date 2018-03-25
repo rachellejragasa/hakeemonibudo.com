@@ -169,6 +169,8 @@
           <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image13.png"></li>
           <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image14.png"></li>
           <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/image15.png"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/background-starwars.jpg"></li>
+          <li><img src="<?php echo get_template_directory_uri() . '/assets/images'; ?>/background-pose.jpg"></li>
         </ul>
       </div>
     </div>

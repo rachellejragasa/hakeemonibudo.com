@@ -46,11 +46,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 *****************/
 #index-banner {
   height: 550px;
-  background: url("assets/images/back-image1.jpg") 0px;
+  background: url("assets/images/Headshot2.v4.jpg") 0px 0px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
   #index-banner img {
     position: relative;
     top: -150px; }
@@ -134,7 +136,8 @@ nav {
     padding-right: 20px;
     padding-bottom: 20px; }
     .photos__gallery li img {
-      max-width: 280px; }
+      width: 280px;
+      height: 350px; }
     .photos__gallery li:nth-child(3n) {
       padding: 0; }
     .photos__gallery li:nth-last-child(-n+3) {

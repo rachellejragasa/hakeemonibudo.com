@@ -4,11 +4,13 @@
 
 #index-banner {
     height: 550px;
-    background: url('assets/images/back-image1.jpg') 0px;
+    background: url('assets/images/Headshot2.v4.jpg') 0px 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 
     img {
         position: relative;
@@ -122,7 +124,8 @@ nav {
             padding-bottom: 20px;
 
             img {
-                max-width: 280px;
+                width: 280px;
+                height: 350px;
             }
 
             &:nth-child(3n) {

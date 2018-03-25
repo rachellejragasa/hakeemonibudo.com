@@ -17,24 +17,18 @@
     <div class="nav-wrapper">
       <a id="logo-container" href="#home" class="brand-logo">Hakeem Onibudo</a>
       <ul class="right hide-on-med-and-down">
-        <li><a class="underline" href="#home">home</a></li>
-        <li><a class="underline" href="#biography">biography</a></li>
-        <li><a class="underline" href="#credits">credits</a></li>
-        <li><a class="underline" href="#photos">photos</a></li>
-        <li><a class="underline" href="#videos">videos</a></li>
-        <li><a class="underline" href="#contact">contact</a></li>
+        <?php
+          wp_nav_menu(array('menu' => 'primary', 'items_wrap' => '<ul><li id="item-id"></li>%3$s</ul>'));
+        ?>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 </div>
 <ul id="nav-mobile" class="side-nav">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#biography">Biography</a></li>
-        <li><a href="#credits">Credits</a></li>
-        <li><a href="#photos">Photos</a></li>
-        <li><a href="#videos-mob">Videos</a></li>
-        <li><a href="#contact">Contact</a></li>
+  <?php
+    wp_nav_menu(array('menu' => 'primary', 'items_wrap' => '<ul><li id="item-id"></li>%3$s</ul>'));
+  ?>
 </ul>
 <div class="section no-pad-bot no-pad-top" id="index-banner">
   <div class="container">
