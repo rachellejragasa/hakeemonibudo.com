@@ -1,0 +1,338 @@
+/**************** 
+* HEADER SECTION
+*****************/
+
+#home {
+    height: 550px;
+    img {
+        /* Safari */
+        -webkit-transform: rotate(0deg);
+
+        /* Firefox */
+        -moz-transform: rotate(0deg);
+
+        /* IE */
+        -ms-transform: rotate(0deg);
+
+        /* Opera */
+        -o-transform: rotate(0deg);
+
+        /* Internet Explorer */
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 20%;
+    }
+
+}
+
+nav {
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+    box-shadow: none;
+    background-color: $white;
+
+    ul a,
+    .brand-logo {
+        color: $black;
+    }
+
+    ul a {
+        font-size: 14px;
+        padding: 0;
+        margin: 0 10px;
+        letter-spacing: 0.075em;
+        &:hover {
+            background: none;
+        }
+    }
+
+    .underline {
+        display: inline;
+        position: relative;
+        overflow: hidden;
+
+        &:after {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            right: 0;
+            width: 0;
+            bottom: -6px;
+            background: yellow;
+            height: 2px;
+            transition-property: width;
+            transition-duration: 0.3s;
+            transition-timing-function: ease-out;
+        }
+
+        &:hover:after,
+        &:focus:after,
+        &:active:after {
+            left: 0;
+            right: auto;
+            width: 100%;
+        }
+    }
+
+    .material-icons {
+        color: $black;
+    }
+
+    .brand-logo {
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.075em;
+    }
+}
+
+.header {
+    color: $black;
+}
+
+/**************** 
+* MAIN CONTENT
+*****************/
+
+.biography,
+.credits,
+.photos,
+.videos,
+.contact {
+    padding-top: $section-spacing;
+    padding-bottom: $section-spacing;
+
+    &__heading {
+        font-weight: bold;
+        font-style: normal;
+    }
+}
+
+.credits {
+    background-color: $light-grey;
+    color: $black;
+
+    &__sub-heading {
+        padding-bottom: 15px;
+    }
+
+    &__section {
+        padding-bottom: 10px;
+    }
+}
+
+.photos {
+    background-color: $black;
+    color: $white;
+
+    &__gallery {
+        li {
+            display: inline-block;
+            padding-right: 20px;
+            padding-bottom: 20px;
+
+            img {
+                width: 280px;
+                height: 350px;
+            }
+
+            &:nth-child(3n) {
+                padding: 0;
+            }
+
+            &:nth-last-child(-n+3) {
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+.videos {
+    &__gallery {
+        li {
+            display: inline-block;
+            padding-right: 20px;
+            padding-bottom: 20px;
+
+            &:nth-last-child(-n+2) {
+                padding-bottom: 0;
+            }
+        }
+
+    }
+}
+
+.contact {
+    background-color: $light-grey;
+    color: $black;
+
+    a,
+    a:active,
+    a:visited {
+        color: $black;
+    }
+}
+
+/**************** 
+* FOOTER
+*****************/
+.page-footer {
+    padding-top: 0;
+    background-color: $black;
+    color: $white;
+
+    .row {
+        margin-bottom: 0px;
+    }
+
+    &__social-media {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        li {
+            display: inline-block;
+
+            a {
+                padding-left: 10px;
+                padding-right: 10px;
+                svg {
+                    color: $grey;
+                }
+            }
+        }
+    }
+}
+
+.footer-copyright {
+    .container {
+        p {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}
+
+/**************** 
+* MEDIA QUERIES
+*****************/
+@media only screen and (max-width: 600px) {
+    #home {
+        height: 300px;
+    }
+    .contact {
+        h5 {
+            font-size: 1.0rem;
+
+            svg {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .contact {
+        h5 {
+            svg {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width: 600px) and (max-width: 993px) {
+    #home {
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    nav {
+        height: 100px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .biography,
+    .credits,
+    .photos,
+    .videos,
+    .contact,
+    .page-footer {
+        .container {
+            width: 85%;
+        }
+    }
+
+    .videos {
+        display: block;
+        &-mob {
+            display: none;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 993px) {
+    
+    nav {
+        .brand-logo {
+            font-size: 4.4vw;
+        }
+    }
+
+    .biography,
+    .credits,
+    .photos,
+    .videos,
+    .contact {
+        padding-top: $section-spacing-half;
+        padding-bottom: $section-spacing-half;
+        padding-left: $section-spacing-mid;
+        padding-right: $section-spacing-mid;
+        
+    }
+
+    .photos {
+        text-align: center;
+    }
+
+    .videos { 
+        display: none; 
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px; height: 0; overflow: hidden;
+        }
+            
+        .video-container li iframe,
+        .video-container li object,
+        .video-container li embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        &-mob {
+            display: block;
+
+            .videos__heading {
+                margin-top: 40px;
+            }
+            
+            &__description {
+                margin-top: 30px;
+
+                h6 {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

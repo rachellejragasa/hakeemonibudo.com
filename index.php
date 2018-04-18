@@ -1,163 +1,204 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
+<?php get_header(); ?>  
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection">
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
-<body>
-    <nav class="white" role="navigation">
-        <div class="nav-wrapper container">
-          <a id="logo-container" href="#" class="brand-logo">Logo</a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#">Navbar Link</a></li>
-          </ul>
-    
-          <ul id="nav-mobile" class="side-nav">
-            <li><a href="#">Navbar Link</a></li>
-          </ul>
-          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
-      </nav>
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
+<!-- Biography Section -->
+  <div id="biography" class="biography">
+    <div class="row">
       <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        <div class="col s12 m12 l6 xl6">
+          <h5 class="biography__heading"><?php the_field('bio_heading');?></h5>
         </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
+        <div class="col s12 m12 l5 xl5">
+          <?php the_field('bio_intro_text');?>
         </div>
       </div>
-
     </div>
   </div>
 
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
+<!-- Credidts Section -->
+  <div id="credits" class="credits section">
+    <div class="row">
       <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        <div class="col s12 m12 l3 xl3">
+            <h4 class="credits__heading"><?php the_field('credits_heading');?></h4>
+        </div>
+        <div class="col s12 m12 l9 xl9">
+          <div class="credits__section">
+              <h5 class="credits__sub-heading"><?php the_field('credits_section_1_heading');?></h5>
+              <?php the_field('credits_section_1_text');?>
+            </div>
+
+            <div class="credits__section">
+              <h5 class="credits__sub-heading"><?php the_field('credits_section_2_heading');?></h5>
+              <?php the_field('credits_section_2_text');?>
+            </div>
+          
+            <div class="credits__section">
+              <h5 class="credits__sub-heading"><?php the_field('credits_section_3_heading');?></h5>
+              <?php the_field('credits_section_3_text');?>
+            </div>
+
+            <div class="credits__section">
+              <h5 class="credits__sub-heading"><?php the_field('credits_section_4_heading');?></h5>
+              <?php the_field('credits_section_4_text');?>
+            </div>
+            
+            <div class="credits__section">
+              <h5 class="credits__sub-heading"><?php the_field('credits_section_5_heading');?></h5>
+              <?php the_field('credits_section_5_text');?>
+            </div>
+
+            <div class="credits__section">
+              <h5 class="credits__sub-heading"><?php the_field('credits_section_6_heading');?></h5>
+              <?php the_field('credits_section_6_text');?>
+            </div>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
+</div>    
 
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <footer class="page-footer teal">
+<!-- Photos Section -->
+<div id="photos" class="photos section">
+  <div class="row">
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+      <div class="col s12 m12 l3 xl3">
+        <h4 class="photos__heading">Photos</h4>
+      </div>  
+      <?php 
+echo do_shortcode('[smartslider3 slider=3]');
+?>
+    </div>
+  </div>
+ </div>
+</div>
 
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
+<!-- Videos Section Desktop -->
+<div id="videos" class="videos">
+  <div class="row">
+    <div class="container">
+      <div class="col l3 xl3">
+        <h4 class="videos__heading">Videos</h4>
+      </div>  
+      <div class="col l9 xl9 videos__gallery">
+        <ul class="videos__gallery">
+          <li><iframe width="260" height="160" src="https://www.youtube.com/embed/cv6d34Hlxlg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+          <li><iframe width="260" height="160" src="https://www.youtube.com/embed/4Zk7t6zzRWE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+          <li><iframe width="260" height="160" src="https://www.youtube.com/embed/_TOd4RIx7I0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+          <li><iframe width="260" height="160" src="https://www.youtube.com/embed/edgy0kfSEBU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+          <li><iframe width="260" height="160" src="https://www.youtube.com/embed/nXyPTefuZIE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+          <li><iframe width="260" height="160" src="https://www.youtube.com/embed/StM3ua4d3rQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+        </ul>
       </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+  </div>
+</div>
+
+<!-- Videos Section Mobile -->
+<div id="videos-mob" class="videos-mob">
+  <div class="row">
+    <div class="container">
+      <div class="col s12 m12">
+        <h4 class="videos__heading">Videos</h4>
+      </div>  
+    </div>
+  </div>
+  <div class="col s12 m12">
+    <ul>
+      <li>
+        <div class="video-container">
+          <iframe width="360" height="215" src="https://www.youtube.com/embed/cv6d34Hlxlg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videos-mob__description">
+          <div class="row">
+            <div class="container">
+              <h6>Move It 2016</h6>  
+              <p>Hakeem Onibudo hosts the mainstage at Move It 2016</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="video-container">
+          <iframe width="360" height="215" src="https://www.youtube.com/embed/4Zk7t6zzRWE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videos-mob__description">
+          <div class="row">
+            <div class="container">
+              <h6>The 20 Year Story</h6>  
+              <p>Motivate, Lead and Inspire</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="video-container">
+          <iframe width="360" height="215" src="https://www.youtube.com/embed/_TOd4RIx7I0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videos-mob__description">
+          <div class="row">
+            <div class="container">
+              <h6>Avengers Premier</h6>  
+              <p>Hakeem Onibudo hosting at the Premier of Avengers Movie.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="video-container">
+          <iframe width="360" height="215" src="https://www.youtube.com/embed/edgy0kfSEBU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videos-mob__description">
+          <div class="row">
+            <div class="container">
+              <h6>Red Carpet</h6>  
+              <p>Hakeem Onibudo hosting at the Red Carpet</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="video-container">
+          <iframe width="360" height="215" src="https://www.youtube.com/embed/nXyPTefuZIE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videos-mob__description">
+          <div class="row">
+            <div class="container">
+              <h6>Hakeem Onibudo Showreel</h6>  
+              <p>Showreel of Hakeem Onibudo's work.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="video-container">
+          <iframe width="360" height="215" src="https://www.youtube.com/embed/StM3ua4d3rQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videos-mob__description">
+          <div class="row">
+            <div class="container">
+              <h6>Impact Dance Slippin</h6>  
+              <p>Impact Dance performs their piece Slippin at Live Vibe.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="contact section">
+  <div class="row">
+    <div class="container">
+      <div class="col s12 m12 l3 xl3">
+        <h4 class="contact__heading"><?php the_field('contact_heading');?></h4>
+      </div>
+      <div class="col s12 m12 l9 xl9">
+        <h5><i class="fas fa-phone"></i> <?php the_field('contact_number');?></h5>
+        <h5><i class="fas fa-envelope"></i><a href="mailto:hakeem@impactdance.co.uk"><?php the_field('contact_email');?></a></h5>
       </div>
     </div>
-  </footer>
+  </div>
+</div>
 
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <script src="js/init.js"></script>
-
-  </body>
-</html>
+<?php get_footer(); ?>

@@ -6,8 +6,276 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
-/* -----------------------------------------
-	Table of Contents
---------------------------------------------
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url("fonts/AvenirNextLTPro-Demi.eot");
+  src: url("fonts/AvenirNextLTPro-Demi.eot?#iefix") format("embedded-opentype"), url("fonts/AvenirNextLTPro-Demi.woff2") format("woff2"), url("fonts/AvenirNextLTPro-Demi.woff") format("woff"), url("fonts/AvenirNextLTPro-Demi.ttf") format("truetype"), url("fonts/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
-*/
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url("fonts/AvenirNextLTPro-It.eot");
+  src: url("fonts/AvenirNextLTPro-It.eot?#iefix") format("embedded-opentype"), url("fonts/AvenirNextLTPro-It.woff2") format("woff2"), url("fonts/AvenirNextLTPro-It.woff") format("woff"), url("fonts/AvenirNextLTPro-It.ttf") format("truetype"), url("fonts/AvenirNextLTPro-It.svg#AvenirNextLTPro-It") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url("fonts/AvenirNextLTPro-DemiIt.eot");
+  src: url("fonts/AvenirNextLTPro-DemiIt.eot?#iefix") format("embedded-opentype"), url("fonts/AvenirNextLTPro-DemiIt.woff2") format("woff2"), url("fonts/AvenirNextLTPro-DemiIt.woff") format("woff"), url("fonts/AvenirNextLTPro-DemiIt.ttf") format("truetype"), url("fonts/AvenirNextLTPro-DemiIt.svg#AvenirNextLTPro-DemiIt") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url("fonts/AvenirNextLTPro-Regular.eot");
+  src: url("fonts/AvenirNextLTPro-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/AvenirNextLTPro-Regular.woff2") format("woff2"), url("fonts/AvenirNextLTPro-Regular.woff") format("woff"), url("fonts/AvenirNextLTPro-Regular.ttf") format("truetype"), url("fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url("fonts/AvenirNextLTPro-Bold.eot");
+  src: url("fonts/AvenirNextLTPro-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/AvenirNextLTPro-Bold.woff2") format("woff2"), url("fonts/AvenirNextLTPro-Bold.woff") format("woff"), url("fonts/AvenirNextLTPro-Bold.ttf") format("truetype"), url("fonts/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+/**************** 
+* HEADER SECTION
+*****************/
+#home {
+  height: 550px; }
+  #home img {
+    /* Safari */
+    -webkit-transform: rotate(0deg);
+    /* Firefox */
+    -moz-transform: rotate(0deg);
+    /* IE */
+    -ms-transform: rotate(0deg);
+    /* Opera */
+    -o-transform: rotate(0deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 20%; }
+
+nav {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background-color: #fff; }
+  nav ul a,
+  nav .brand-logo {
+    color: #000; }
+  nav ul a {
+    font-size: 14px;
+    padding: 0;
+    margin: 0 10px;
+    letter-spacing: 0.075em; }
+    nav ul a:hover {
+      background: none; }
+  nav .underline {
+    display: inline;
+    position: relative;
+    overflow: hidden; }
+    nav .underline:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      right: 0;
+      width: 0;
+      bottom: -6px;
+      background: yellow;
+      height: 2px;
+      transition-property: width;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-out; }
+    nav .underline:hover:after, nav .underline:focus:after, nav .underline:active:after {
+      left: 0;
+      right: auto;
+      width: 100%; }
+  nav .material-icons {
+    color: #000; }
+  nav .brand-logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.075em; }
+
+.header {
+  color: #000; }
+
+/**************** 
+* MAIN CONTENT
+*****************/
+.biography,
+.credits,
+.photos,
+.videos,
+.contact {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .biography__heading,
+  .credits__heading,
+  .photos__heading,
+  .videos__heading,
+  .contact__heading {
+    font-weight: bold;
+    font-style: normal; }
+
+.credits {
+  background-color: #f2f0ef;
+  color: #000; }
+  .credits__sub-heading {
+    padding-bottom: 15px; }
+  .credits__section {
+    padding-bottom: 10px; }
+
+.photos {
+  background-color: #000;
+  color: #fff; }
+  .photos__gallery li {
+    display: inline-block;
+    padding-right: 20px;
+    padding-bottom: 20px; }
+    .photos__gallery li img {
+      width: 280px;
+      height: 350px; }
+    .photos__gallery li:nth-child(3n) {
+      padding: 0; }
+    .photos__gallery li:nth-last-child(-n+3) {
+      padding-bottom: 0; }
+
+.videos__gallery li {
+  display: inline-block;
+  padding-right: 20px;
+  padding-bottom: 20px; }
+  .videos__gallery li:nth-last-child(-n+2) {
+    padding-bottom: 0; }
+
+.contact {
+  background-color: #f2f0ef;
+  color: #000; }
+  .contact a,
+  .contact a:active,
+  .contact a:visited {
+    color: #000; }
+
+/**************** 
+* FOOTER
+*****************/
+.page-footer {
+  padding-top: 0;
+  background-color: #000;
+  color: #fff; }
+  .page-footer .row {
+    margin-bottom: 0px; }
+  .page-footer__social-media {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center; }
+    .page-footer__social-media li {
+      display: inline-block; }
+      .page-footer__social-media li a {
+        padding-left: 10px;
+        padding-right: 10px; }
+        .page-footer__social-media li a svg {
+          color: #807f83; }
+
+.footer-copyright .container p {
+  font-size: 12px;
+  text-align: center; }
+
+/**************** 
+* MEDIA QUERIES
+*****************/
+@media only screen and (max-width: 600px) {
+  #home {
+    height: 300px; }
+  .contact h5 {
+    font-size: 1.0rem; }
+    .contact h5 svg {
+      margin-right: 10px; } }
+
+@media only screen and (min-width: 600px) {
+  .contact h5 svg {
+    margin-right: 10px; } }
+
+@media (min-width: 600px) and (max-width: 993px) {
+  #home {
+    height: 400px; } }
+
+@media only screen and (min-width: 992px) {
+  nav {
+    height: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px; }
+  .biography .container,
+  .credits .container,
+  .photos .container,
+  .videos .container,
+  .contact .container,
+  .page-footer .container {
+    width: 85%; }
+  .videos {
+    display: block; }
+    .videos-mob {
+      display: none; } }
+
+@media only screen and (max-width: 993px) {
+  nav .brand-logo {
+    font-size: 4.4vw; }
+  .biography,
+  .credits,
+  .photos,
+  .videos,
+  .contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px; }
+  .photos {
+    text-align: center; }
+  .videos {
+    display: none; }
+    .videos .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 30px;
+      height: 0;
+      overflow: hidden; }
+    .videos .video-container li iframe,
+    .videos .video-container li object,
+    .videos .video-container li embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+    .videos-mob {
+      display: block; }
+      .videos-mob .videos__heading {
+        margin-top: 40px; }
+      .videos-mob__description {
+        margin-top: 30px; }
+        .videos-mob__description h6 {
+          font-weight: bold; } }
+
+html {
+  font-family: 'Avenir Next LT Pro';
+  font-weight: normal; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5em; }
+
+p {
+  line-height: 1.668em; }
