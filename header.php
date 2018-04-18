@@ -23,6 +23,7 @@
 <nav role="navigation">
     <div class="nav-wrapper">
       <a id="logo-container" href="#home" class="brand-logo">Hakeem Onibudo</a>
+      <span class="logo-strapline">MOTIVATE, LEAD, INSPIRE</span>
       <ul class="right hide-on-med-and-down">
         <?php
           wp_nav_menu(array('menu' => 'primary', 'items_wrap' => '<ul><li id="item-id"></li>%3$s</ul>'));
