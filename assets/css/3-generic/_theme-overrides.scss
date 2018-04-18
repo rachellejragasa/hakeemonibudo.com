@@ -88,10 +88,7 @@ nav {
     }
 
     .logo-strapline {
-        color: $black;
-        position: absolute;
-        transform: translateY(25px);
-        font-size: 1.5vw;
+        display: none;
     }
 }
 
@@ -262,6 +259,14 @@ nav {
         padding-bottom: 15px;
         padding-right: 30px;
         padding-left: 30px;
+
+        .logo-strapline {
+            display: block;
+            color: $black;
+            position: absolute;
+            transform: translateY(25px);
+            font-size: 1.5vw;
+        }
     }
 
     .biography,
