@@ -65,7 +65,7 @@
         <h4 class="photos__heading">Photos</h4>
       </div>  
       <?php 
-echo do_shortcode('[smartslider3 slider=3]');
+echo do_shortcode('[smartslider3 slider=2]');
 ?>
     </div>
   </div>
