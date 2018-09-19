@@ -277,13 +277,17 @@ nav {
 
 }
 
-@media only screen and (max-width: 993px) {
-    
+@media only screen and (max-width: 992px) {
     nav {
         .brand-logo {
-            font-size: 4.4vw;
+            font-size: 2.5vw;
+            left: 55px;
+            transform: unset;
         }
     }
+}
+
+@media only screen and (max-width: 993px) {
 
     .biography,
     .credits,

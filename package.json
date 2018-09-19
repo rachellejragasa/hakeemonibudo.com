@@ -1,7 +1,7 @@
 {
   "name": "hakeemonibudo.com",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hakeem Onibudo Website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,16 +18,9 @@
   "homepage": "https://github.com/rachellejragasa/hakeemonibudo.com#readme",
   "devDependencies": {
     "autoprefixer": "^8.0.0",
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.24.7",
     "css-font-family": "^1.0.7",
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-sass": "^3.1.0"
-  },
-  "dependencies": {
-    "autoprefixer": "^8.0.0",
-    "browser-sync": "^2.23.6",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^3.1.0"
   }
